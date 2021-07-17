@@ -1,7 +1,14 @@
+import Share from "../Share/share";
 import "./feed.css";
 
 const Feed = () => {
-  return <h1 className="feed">Feed</h1>;
+  return (
+    <div className="feed">
+      <div className="feedWrapper">
+        <Share />
+      </div>
+    </div>
+  );
 };
 
 export default Feed;
