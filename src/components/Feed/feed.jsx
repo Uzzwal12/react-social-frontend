@@ -1,4 +1,5 @@
 import Share from "../Share/share";
+import Post from "../Post/post";
 import "./feed.css";
 
 const Feed = () => {
@@ -6,6 +7,7 @@ const Feed = () => {
     <div className="feed">
       <div className="feedWrapper">
         <Share />
+        <Post />
       </div>
     </div>
   );
