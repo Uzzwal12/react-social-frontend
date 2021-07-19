@@ -61,12 +61,12 @@
   font-weight: 300;
 }
 
-.rightbarFriends{
+.rightbarFollowings{
   display: flex;
   justify-content: space-between;
 }
 
-.rightbarFriend{
+.rightbarFollowing{
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;

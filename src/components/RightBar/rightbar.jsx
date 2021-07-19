@@ -42,8 +42,8 @@ const RightBar = ({ profile }) => {
           </div>
         </div>
         <h4 className="rightbarTitle">Friends</h4>
-        <div className="rightbarFriends">
-          <div className="rightbarFriend">
+        <div className="rightbarFollowings">
+          <div className="rightbarFollowing">
             <img
               src="/assets/person/4.jpeg"
               alt=""
@@ -51,7 +51,7 @@ const RightBar = ({ profile }) => {
             />
             <span className="rightbarFriendName">Jane smith</span>
           </div>
-          <div className="rightbarFriend">
+          <div className="rightbarFollowing">
             <img
               src="/assets/person/5.jpeg"
               alt=""
@@ -59,7 +59,7 @@ const RightBar = ({ profile }) => {
             />
             <span className="rightbarFriendName">Sexy bitch</span>
           </div>
-          <div className="rightbarFriend">
+          <div className="rightbarFollowing">
             <img
               src="/assets/person/6.jpeg"
               alt=""
